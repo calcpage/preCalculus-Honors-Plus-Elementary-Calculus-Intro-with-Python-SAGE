@@ -1,0 +1,7 @@
+#1)
+a=matrix([(2,3,-1),(4,0,7)]);show(a)
+b=matrix([(1,-2,-1),(-5,3,-4)]);show(b)
+show(a+b)
+show(4*a)
+show(3*b)
+show(4*a-3*b)

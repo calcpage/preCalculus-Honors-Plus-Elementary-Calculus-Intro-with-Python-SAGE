@@ -1,0 +1,7 @@
+#3)
+g=matrix([(2,3),(-5,12)]);show(g)
+h=matrix([(1,0),(0,1)]);show(h)
+show(g*h)
+show(h*g)
+show(g^(-1))
+show(g*g^(-1))

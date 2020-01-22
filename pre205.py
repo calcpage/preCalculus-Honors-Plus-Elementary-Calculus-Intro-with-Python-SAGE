@@ -1,0 +1,30 @@
+#MrG 2018.0823 pre205 Compositions
+show("#1) Find f(g(x)) and g(f(x)).")
+f(x)=2*x^2-3;show("f(x)=",f(x))
+g(x)=4*x;show("g(x)=",g(x))
+show("f(g(x))=",f(g(x)))
+show("g(f(x))=",g(f(x)))
+show("")
+
+show("#2) Find f(g(1)),g(f(1)),f(f(-2)),g(g(-1)).")
+show("f(g(1))=",f(g(1)))
+show("g(f(1))=",g(f(1)))
+show("f(f(-2))=",f(f(-2)))
+show("g(g(-1))=",g(g(-1)))
+show("")
+
+show("#3) Find f(g(x)) and g(f(x)).")
+f(x)=1/(x+2);show("f(x)=",f(x))
+g(x)=4/(x-1);show("g(x)=",g(x))
+show("f(g(x))=",f(g(x)).canonicalize_radical())
+show("g(f(x))=",g(f(x)).canonicalize_radical())
+show("")
+
+show("#4) Find g(x) the inverse of y=f(x)=3*x-4")
+show("#4) find f(g(x)) and g(f(x))")
+var('y')
+f(x)=3*x-4
+g(x)=solve(x==3*y-4,y)[0].rhs();show("g(x)=",g(x))
+show("f(g(x)=",f(g(x)))
+show("g(f(x)=",g(f(x)))
+show("")
