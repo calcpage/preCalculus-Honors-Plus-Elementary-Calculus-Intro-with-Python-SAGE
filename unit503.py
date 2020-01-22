@@ -1,0 +1,13 @@
+#MrG 2018.0515 503 What Is A Definite Integral?
+show("503 What Is A Definite Integral?")
+show("integrate(1,x)=",integrate(1,x))
+show("integrate(1,x,0,5)=",integrate(1,x,0,5))
+show("")
+show("integrate(x,x)=",integrate(x,x))
+show("integrate(x,x,0,5)=",integrate(x,x,0,5))
+show("")
+show("integrate(x^2,x)=",integrate(x^2,x))
+show("integrate(x^2,x,0,5)=",integrate(x^2,x,0,5))
+show("")
+show("integrate(x^3,x)=",integrate(x^3,x))
+show("integrate(x^3,x,0,5)=",integrate(x^3,x,0,5))

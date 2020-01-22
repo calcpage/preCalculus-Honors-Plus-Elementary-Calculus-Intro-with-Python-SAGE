@@ -1,0 +1,10 @@
+#MrG 2015.0427 501 What Are Anti-Derivatives?
+show("501 What Are Anti-Derivatives?")
+f(x)=sqrt(x);show("f(x)=",f(x))
+show("integrate(f(x),x)=",integrate(f(x),x))
+show("")
+g(x)=1/sqrt(x);show("g(x)=",g(x))
+show("integrate(g(x),x)=",integrate(g(x),x))
+show("")
+h(x)=6*sin(3*x);show("h(x)=",h(x))
+show("integrate(h(x),x)=",integrate(h(x),x))
